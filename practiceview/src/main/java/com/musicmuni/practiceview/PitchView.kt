@@ -8,10 +8,10 @@ import android.widget.Toast
  * MusicMuni Labs Pvt Ltd.
  * jithin@riyazapp.com
  */
-class PracticePitchView {
+class PitchView {
 
     companion object {
-        fun showPracticeViewToast(context: Context, msg: String?){
+        fun showPitchViewToast(context: Context, msg: String?){
             Toast.makeText(context, "TOAST FROM PRACTICE_VIEW LIB: $msg", Toast.LENGTH_LONG).show()
         }
     }
